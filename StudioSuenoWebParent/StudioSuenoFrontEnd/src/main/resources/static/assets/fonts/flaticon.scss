@@ -1,0 +1,197 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?0f361d191277252127f3e5c3a78b8589") format("truetype"),
+url("./flaticon.woff?0f361d191277252127f3e5c3a78b8589") format("woff"),
+url("./flaticon.woff2?0f361d191277252127f3e5c3a78b8589") format("woff2"),
+url("./flaticon.eot?0f361d191277252127f3e5c3a78b8589#iefix") format("embedded-opentype"),
+url("./flaticon.svg?0f361d191277252127f3e5c3a78b8589#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "shopping-bag": "\f101",
+    "dress": "\f102",
+    "bags": "\f103",
+    "laptop": "\f104",
+    "toys": "\f105",
+    "home": "\f106",
+    "gift-box": "\f107",
+    "beauty": "\f108",
+    "headphone": "\f109",
+    "music-notes": "\f10a",
+    "groceries": "\f10b",
+    "groceries-1": "\f10c",
+    "menu": "\f10d",
+    "deals": "\f10e",
+    "deal": "\f10f",
+    "deal-1": "\f110",
+    "hot-deal": "\f111",
+    "star": "\f112",
+    "list-text": "\f113",
+    "list": "\f114",
+    "list-1": "\f115",
+    "list-2": "\f116",
+    "list-3": "\f117",
+    "new": "\f118",
+    "new-products-label": "\f119",
+    "new-1": "\f11a",
+    "new-product": "\f11b",
+    "new-2": "\f11c",
+    "discount": "\f11d",
+    "tag": "\f11e",
+    "discount-1": "\f11f",
+    "price-tag": "\f120",
+    "gift": "\f121",
+    "discount-2": "\f122",
+    "sale": "\f123",
+    "price-tag-1": "\f124",
+    "deal-3": "\f125",
+    "mozy": "\f126",
+    "tags": "\f127",
+    "slack": "\f128",
+    "button": "\f129",
+    "ellipsis": "\f12a",
+    "positive": "\f12b",
+);
+
+.flaticon-shopping-bag:before {
+    content: map-get($flaticon-map, "shopping-bag");
+}
+.flaticon-dress:before {
+    content: map-get($flaticon-map, "dress");
+}
+.flaticon-bags:before {
+    content: map-get($flaticon-map, "bags");
+}
+.flaticon-laptop:before {
+    content: map-get($flaticon-map, "laptop");
+}
+.flaticon-toys:before {
+    content: map-get($flaticon-map, "toys");
+}
+.flaticon-home:before {
+    content: map-get($flaticon-map, "home");
+}
+.flaticon-gift-box:before {
+    content: map-get($flaticon-map, "gift-box");
+}
+.flaticon-beauty:before {
+    content: map-get($flaticon-map, "beauty");
+}
+.flaticon-headphone:before {
+    content: map-get($flaticon-map, "headphone");
+}
+.flaticon-music-notes:before {
+    content: map-get($flaticon-map, "music-notes");
+}
+.flaticon-groceries:before {
+    content: map-get($flaticon-map, "groceries");
+}
+.flaticon-groceries-1:before {
+    content: map-get($flaticon-map, "groceries-1");
+}
+.flaticon-menu:before {
+    content: map-get($flaticon-map, "menu");
+}
+.flaticon-deals:before {
+    content: map-get($flaticon-map, "deals");
+}
+.flaticon-deal:before {
+    content: map-get($flaticon-map, "deal");
+}
+.flaticon-deal-1:before {
+    content: map-get($flaticon-map, "deal-1");
+}
+.flaticon-hot-deal:before {
+    content: map-get($flaticon-map, "hot-deal");
+}
+.flaticon-star:before {
+    content: map-get($flaticon-map, "star");
+}
+.flaticon-list-text:before {
+    content: map-get($flaticon-map, "list-text");
+}
+.flaticon-list:before {
+    content: map-get($flaticon-map, "list");
+}
+.flaticon-list-1:before {
+    content: map-get($flaticon-map, "list-1");
+}
+.flaticon-list-2:before {
+    content: map-get($flaticon-map, "list-2");
+}
+.flaticon-list-3:before {
+    content: map-get($flaticon-map, "list-3");
+}
+.flaticon-new:before {
+    content: map-get($flaticon-map, "new");
+}
+.flaticon-new-products-label:before {
+    content: map-get($flaticon-map, "new-products-label");
+}
+.flaticon-new-1:before {
+    content: map-get($flaticon-map, "new-1");
+}
+.flaticon-new-product:before {
+    content: map-get($flaticon-map, "new-product");
+}
+.flaticon-new-2:before {
+    content: map-get($flaticon-map, "new-2");
+}
+.flaticon-discount:before {
+    content: map-get($flaticon-map, "discount");
+}
+.flaticon-tag:before {
+    content: map-get($flaticon-map, "tag");
+}
+.flaticon-discount-1:before {
+    content: map-get($flaticon-map, "discount-1");
+}
+.flaticon-price-tag:before {
+    content: map-get($flaticon-map, "price-tag");
+}
+.flaticon-gift:before {
+    content: map-get($flaticon-map, "gift");
+}
+.flaticon-discount-2:before {
+    content: map-get($flaticon-map, "discount-2");
+}
+.flaticon-sale:before {
+    content: map-get($flaticon-map, "sale");
+}
+.flaticon-price-tag-1:before {
+    content: map-get($flaticon-map, "price-tag-1");
+}
+.flaticon-deal-3:before {
+    content: map-get($flaticon-map, "deal-3");
+}
+.flaticon-mozy:before {
+    content: map-get($flaticon-map, "mozy");
+}
+.flaticon-tags:before {
+    content: map-get($flaticon-map, "tags");
+}
+.flaticon-slack:before {
+    content: map-get($flaticon-map, "slack");
+}
+.flaticon-button:before {
+    content: map-get($flaticon-map, "button");
+}
+.flaticon-ellipsis:before {
+    content: map-get($flaticon-map, "ellipsis");
+}
+.flaticon-positive:before {
+    content: map-get($flaticon-map, "positive");
+}
